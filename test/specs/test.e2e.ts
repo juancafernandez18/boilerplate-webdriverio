@@ -1,4 +1,4 @@
-import LoginPage from  '../pageobjects/login.page';
+import LoginPage from  '../pageobjects/login.page.js';
 
 describe('My Login application', () => {
     it('should login with valid credentials', async () => {
@@ -6,4 +6,3 @@ describe('My Login application', () => {
         await LoginPage.login('tomsmith@mail.com', 'SuperSecretPassword!');
     });
 });
-
