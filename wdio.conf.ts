@@ -59,15 +59,14 @@ export const config: Options.Testrunner = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        // capabilities for local Appium web tests on an Android Emulator
-        platformName: 'Android',
-        'appium:deviceName': 'emulator-5554',
-        'appium:platformVersion': '14.0',
-        'appium:automationName': 'UiAutomator2',
-        'appium:appPackage': 'com.wdiodemoapp',
-        'appium:appActivity': 'com.wdiodemoapp.MainActivity',
-        'appium:app': __dirname + '/app/android.wdio.native.app.v1.0.8.apk'
-    }],
+        "appium:platformName": "Android",
+            "appium:platformVersion": "12",
+            "appium:deviceName": "ZY22FN88NV",
+            "appium:automationName": "UiAutomator2",
+            "appium:appPackage": "com.bancomobile.menu",
+            "appium:appActivity": "com.bancomobile.menu.MainActivity"
+        
+      }],
 
     //
     // ===================
