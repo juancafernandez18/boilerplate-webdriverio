@@ -60,8 +60,8 @@ export const config: Options.Testrunner = {
     //
     capabilities: [{
         "appium:platformName": "Android",
-            "appium:platformVersion": "12",
-            "appium:deviceName": "ZY22FN88NV",
+            "appium:platformVersion": "10",
+            "appium:deviceName": "RCXOSC6DGMDYHIKZ",
             "appium:automationName": "UiAutomator2",
             "appium:appPackage": "com.bancomobile.menu",
             "appium:appActivity": "com.bancomobile.menu.MainActivity"
